@@ -1,0 +1,1 @@
+#define __BL_SAFEBOX_MONEY__
