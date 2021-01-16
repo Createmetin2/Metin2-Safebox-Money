@@ -22,6 +22,6 @@
 #Change
 	def RefreshSafeboxMoney(self):
 		if app.__BL_SAFEBOX_MONEY__:
-			self.wndMoney.SetText(str(safebox.GetMoney()))
+			self.wndMoney.SetText(localeInfo.NumberToMoneyString(safebox.GetMoney()))
 		else:
 			pass
